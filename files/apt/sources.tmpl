@@ -1,0 +1,12 @@
+
+# main
+deb http://<%= mirror %>/debian/ jessie main
+deb-src http://<%= mirror %>/debian/ jessie main
+
+# security
+deb http://<%= mirror %>/security/ jessie/updates main
+deb-src http://<%= mirror %>/security/ jessie/updates main
+
+# jessie-updates, previously known as 'volatile'
+# deb http://<%= mirror %>/debian/ jessie-updates main
+# deb-src http://<%= mirror %>/debian/ jessie-updates main
